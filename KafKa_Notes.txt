@@ -2,6 +2,8 @@ Introduction to kafka : https://youtu.be/rl5PndGAq7s
 
 Kafka Architecture : https://youtu.be/spKzUOQhfV4
 
+Detailed Architecture: https://www.youtube.com/watch?v=HUAa1Yg9NlI&t=54s
+
 Github link : https://github.com/codedecode25/Kafka
 
 Link to download Kafka : https://kafka.apache.org/downloads.html
