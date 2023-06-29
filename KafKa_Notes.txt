@@ -12,6 +12,12 @@ Commands to start Zookeeper and Kafka :
 .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 .\bin\windows\kafka-server-start.bat .\config\server.properties 
 
+List down available topics: .\bin\windows\kafka-topics.bat --bootstrap-server=localhost:9092 --list
+ 
+Create a topic: .\bin\windows\kafka-topics.bat --bootstrap-server=localhost:9092 --create --topic user --partitions=2
+ 
+Create a Consumer: .\bin\windows\kafka-console-consumer.bat --bootstrap-server=localhost:9092 --topic=user
+
 Default ports:
 - Zookeeper: 2181
 - Kafa: 9092
