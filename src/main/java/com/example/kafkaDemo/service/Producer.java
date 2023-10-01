@@ -20,5 +20,4 @@ public class Producer
 	{
 		kafkaTemplate.send(kafkaTopic, message);
 	}
-
 }

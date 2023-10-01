@@ -23,5 +23,4 @@ public class KafkaMessageController
 	{
 		producer.sendMsgToTopic(message);
 	}
-
 }
