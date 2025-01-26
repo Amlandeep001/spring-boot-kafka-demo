@@ -20,7 +20,7 @@ Create a Consumer: .\bin\windows\kafka-console-consumer.bat --bootstrap-server=l
 
 Default ports:
 - Zookeeper: 2181
-- Kafa: 9092
+- Kafka: 9092
 
 Kafka implementation with producer and consumer is very important topic with interview point of view.
 
