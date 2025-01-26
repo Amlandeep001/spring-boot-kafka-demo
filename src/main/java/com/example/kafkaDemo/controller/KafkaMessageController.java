@@ -19,7 +19,7 @@ public class KafkaMessageController
 	}
 
 	@GetMapping("/producerMsg")
-	public void getMessageFromClient(@RequestParam("message") String message)
+	public void getMessageFromClient(@RequestParam String message)
 	{
 		producer.sendMsgToTopic(message);
 	}
